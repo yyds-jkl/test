@@ -29,7 +29,7 @@ chmod +x apkeep
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # 这个链接是MUMU下载的,应该是9游,其他渠道自行修改直链
-    url="https://downali.game.uc.cn/s1/2/10/20230213150150_blhx_uc_2022_11_02_18_24_01.apk?x-oss-process=udf/uc-apk,ZBHDhDR0LVBkTsK*wpLCng==afae37c2a88fd1ca&sh=10&sf=1831727323&vh=18330f93bd450707942ce0b882a0c6b2&cc=2521889677&did=217b729f8a4841dd81901816dfba551f"
+    url="https://pkg.biligame.com/games/blhx_6.2.1_bilibili_20221107_143634.apk"
     # 使用wget命令下载apk文件
     curl -o blhx.apk  $url
     fi
